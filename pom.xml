@@ -17,5 +17,13 @@
 	<name>lmz-flags</name>
 	<description>Flags used across the LMZ applications.</description>
 
+	<scm>
+		<connection>scm:git:git@github.com:uoa-group-applications/lmz-flags</connection>
+		<developerConnection>scm:git:git@github.com:uoa-group-applications/lmz-flags</developerConnection>
+		<url>http://github.com/uoa-group-applications/lmz-flags</url>
+		<tag>HEAD</tag>
+	</scm>
+
+
 </project>
 
