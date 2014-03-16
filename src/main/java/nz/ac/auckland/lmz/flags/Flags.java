@@ -13,6 +13,10 @@ public enum Flags {
 		return "true".equalsIgnoreCase(System.getProperty(property));
 	}
 
+	public void turnOn() {
+		System.setProperty(property, "true");
+	}
+
 	private Flags(String property) {
 		this.property = property;
 	}
